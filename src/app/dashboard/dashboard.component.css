@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+}
+
+nav button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav button:hover {
+  background-color: #0056b2;
+}
+
+/* Task list styles */
+.task-list {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-item .task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-item .task-status {
+  font-weight: bold;
+}
+
+.task-item.completed {
+  background-color: #e0e0e0;
+  opacity: 0.7;
+}
+
+/* Filter styles */
+.filter-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.filter-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Statistics styles */
+.statistics-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.statistics-container p {
+  margin-bottom: 5px;
+}
